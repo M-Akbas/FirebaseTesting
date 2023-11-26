@@ -16,12 +16,10 @@ export class DasboardComponent {
   allUsers: any = [];
   showFiller = false;
 
-  ngOnInit(){
-    this.loadFromDB();
-  }
-  loadFromDB(){
 
-  }
+ 
+
+
   constructor(public dialog: MatDialog, private service: ServiceService) {
    
   }
