@@ -1,0 +1,13 @@
+<div>
+  <h1>Bisherige Nutzer:</h1>
+  <div class="user-container" *ngFor="let user of allUsers"> {{ user.name }} {{ user.age }}</div>
+  <div class="example-button-container">
+    <button (click)="openDialog()" mat-fab color="primary" aria-label="Example icon button with a bookmark icon">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+</div>
+
+
+
+

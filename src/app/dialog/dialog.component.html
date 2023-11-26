@@ -1,0 +1,17 @@
+<div class="dialog-container">
+  <mat-form-field appearance="outline">
+    <mat-label>First Name</mat-label>
+    <input [(ngModel)]="firstName" matInput placeholder="Peter" />
+
+    <mat-hint>Enter your First Name</mat-hint>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Age</mat-label>
+    <input [(ngModel)]="age" matInput placeholder="18" />
+
+    <mat-hint>Enter your age</mat-hint>
+  </mat-form-field>
+  <div class="mt-16">
+    <button mat-flat-button color="primary" (click)="sendDocToDB()" >Primary</button>
+  </div>
+</div>
